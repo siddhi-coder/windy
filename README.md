@@ -7,7 +7,6 @@ This website provides users with basic weather information for their desired loc
 <li>Weather Data Display: Upon searching for a city, the website displays the current temperature, humidity, and wind speed for the specified location.</li>
 <li>Error Handling: If the entered city name is not found or there is an issue with retrieving data from the API, the website displays an error message to inform the user.</li>
 <li>Weather Icon: The website also displays an icon representing the current weather condition (e.g., sunny, cloudy, rainy) to provide a visual representation of the weather.</li>
-<li>Background Color Change: Based on the current weather condition, the background color of the weather card changes to reflect the weather type (e.g., blue for clear skies, gray for clouds or mist, darker shades for rain or drizzle).</li>
 <li>Metric Units: All weather data is displayed in metric units (Celsius for temperature, percentage for humidity, kilometers per hour for wind speed) to provide consistency and ease of understanding for users.</li>
 </ul>
 <h3>How to Use</h3>
