@@ -24,23 +24,23 @@ async function checkWeather(city){
 
     if (data.weather[0].main == "Clouds"){
         weathericon.src = "images/clouds.png";
-        card.body.style.background = "#d3d3d3"; // Light Gray for Clouds
+        document.card.style.background = "#d3d3d3"; // Light Gray for Clouds
     }
     else if (data.weather[0].main == "Clear"){
         weathericon.src = "images/clear.png";
-        card.body.style.background = "#87ceeb"; // Sky Blue for Clear
+        document.card.style.background = "#87ceeb"; // Sky Blue for Clear
     }
     else if (data.weather[0].main == "Rain"){
         weathericon.src = "images/rain.png";
-        card.body.style.background = "#4682b4"; // Steel Blue for Rain
+        document.card.style.background = "#4682b4"; // Steel Blue for Rain
     }
     else if (data.weather[0].main == "Drizzle"){
         weathericon.src = "images/drizzle.png";
-        card.body.style.background = "#a9a9a9"; // Dark Gray for Drizzle
+        document.card.style.background = "#a9a9a9"; // Dark Gray for Drizzle
     }
     else if (data.weather[0].main == "Mist"){
         weathericon.src = "images/mist.png";
-        card.body.style.background = "#d3d3d3"; // Light Gray for Mist (same as Clouds)
+        document.card.style.background = "#d3d3d3"; // Light Gray for Mist (same as Clouds)
     }
     
 
